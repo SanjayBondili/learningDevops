@@ -1,5 +1,5 @@
 pipeline {
-    agent { label JDK17 }
+    agent { label 'JDK17' }
     stages{
         stage ('scm')
         {
