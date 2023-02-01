@@ -10,7 +10,7 @@ pipeline {
         stage ('build')
         {
             steps{
-                sh 'mvn clean package'
+                sh '/opt/apache-maven-3.8.7/bin/mvn package'
             }
         }
         stage ('Archive artifacts')
